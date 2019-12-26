@@ -1,0 +1,1 @@
+package com.zcy.cn.entity;import lombok.Data;import javax.persistence.*;import java.io.Serializable;/** * @author 朱朝阳 * @date 2019/12/26 18:09 */@Data@Entity@Table(name = "user_info")public class UserInfo implements Serializable {    @Id    @GeneratedValue(strategy = GenerationType.IDENTITY)    private Long id;    private String name;}

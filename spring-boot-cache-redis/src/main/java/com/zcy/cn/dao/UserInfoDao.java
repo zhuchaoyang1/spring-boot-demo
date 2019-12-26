@@ -1,0 +1,1 @@
+package com.zcy.cn.dao;import com.zcy.cn.entity.UserInfo;import org.springframework.data.jpa.repository.JpaRepository;/** * @author 朱朝阳 * @date 2019/12/26 18:11 */public interface UserInfoDao extends JpaRepository<UserInfo, Long> {}
